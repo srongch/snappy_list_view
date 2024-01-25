@@ -370,7 +370,7 @@ class _SnappyListViewState extends State<SnappyListView> {
       case Axis.horizontal:
         return EdgeInsets.only(left: firstPadding, right: lastPadding);
       case Axis.vertical:
-        return EdgeInsets.only(top: firstPadding, bottom: lastPadding);
+        return EdgeInsets.only(top: 0, bottom: lastPadding);
     }
   }
 
